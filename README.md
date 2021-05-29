@@ -1,6 +1,6 @@
 # BERSER APP
 
-I created this project with my friend [Berkan](https://github.com/brknkosuncu) for our school project.In this application, you can show your project to other people and look
+I created this project with my friend [Şerafet](https://github.com/kleiza7) for our school project.In this application, you can show your project to other people and look
 
 other peoples projects.Also you can sign in, sign up, login with Google, create project, edit, delete or look project details.Even you can like other projects.
 
@@ -40,7 +40,7 @@ Project setup
 
 # BERSER APP
 
-Ben ve [Berkan](https://github.com/brknkosuncu) bu projeyi okul ödevimiz için oluşturduk.Bu projede, proje fikirlerinizi insanlara sunabilir, onların fikirlerine bakabilir, beğenebilirsiniz.Ayrıca siteye kayıt olabilir, giriş yapabilir, projelerinizi düzenleyebilir ve silebilirsiniz.Proje MERN stack kullanılarak geliştirilmiştir.
+Ben ve [Şerafet](https://github.com/kleiza7) bu projeyi okul ödevimiz için oluşturduk.Bu projede, proje fikirlerinizi insanlara sunabilir, onların fikirlerine bakabilir, beğenebilirsiniz.Ayrıca siteye kayıt olabilir, giriş yapabilir, projelerinizi düzenleyebilir ve silebilirsiniz.Proje MERN stack kullanılarak geliştirilmiştir.
 
 Projeyi kurulumu
 
@@ -78,11 +78,11 @@ Setup project
 
 
 
-![alt text](https://github.com/kleiza7/berser-app/blob/version2/server/images/1.PNG?raw=true "resim 1")
+![alt text](https://github.com/brknkosuncu/berserApp/blob/version2/server/images/1.PNG "resim 1")
 
-![alt text](https://github.com/kleiza7/berser-app/blob/version2/server/images/2.PNG?raw=true "resim 2")
+![alt text](https://github.com/brknkosuncu/berserApp/blob/version2/server/images/2.PNG "resim 2")
 
-![alt text](https://github.com/kleiza7/berser-app/blob/version2/server/images/3.PNG?raw=true "resim 3")
+![alt text](https://github.com/brknkosuncu/berserApp/blob/version2/server/images/3.PNG "resim 3")
 
 
 
