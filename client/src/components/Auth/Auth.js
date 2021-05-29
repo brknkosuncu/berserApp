@@ -3,7 +3,7 @@ import { Container, Form, Input, Col, Row, Button, Label } from "reactstrap";
 import FileBase from "react-file-base64";
 import "./Auth.css";
 import { useDispatch } from "react-redux";
-import { useHistory } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import { signin, signup } from "../../actions/auth";
 import { FaRegEye } from "react-icons/fa";
 import { GoogleLogin } from "react-google-login";
@@ -175,7 +175,7 @@ const Auth = () => {
           </Container>
         )}
 
-        <Button type="submit" className={"submitButton"} color="primary">
+        <Button type="submit" className={"submitButtonS"} color="primary">
           {isSignUp ? "Sign Up" : "Sign In"}
         </Button>
 
@@ -208,6 +208,7 @@ const Auth = () => {
             cookiePolicy="single_host_origin"
           />
         </Container>
+        <Link to="/forgotPassword">Forgot Password?</Link>
       </Form>
     </Container>
   );

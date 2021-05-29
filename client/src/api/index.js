@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({baseURL: "http://localhost:5002" });
+const API = axios.create({baseURL: "http://localhost:5002/api" });
 
 API.interceptors.request.use((req)=> {
     if(localStorage.getItem('profile')){
@@ -19,3 +19,4 @@ export const likeProject = (id) => API.patch(`/projects/${id}/likeProject`);
 
 export const signIn = (formData) => API.post('/user/signin', formData);
 export const signUp = (formData) => API.post('/user/signup', formData);
+export const forgotPassword = (formData) => API.post('/user/forgotpassword', formData);
